@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=egde" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/moleculaM.png" />
+    <title>SignUp Email</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      border: 0;
+    }
+
+    body {
+      background-color: #f7f7f7;
+      margin: 5% auto;
+      max-width: 1200px;
+      font-family: "Nunito Sans", sans-serif;
+    }
+    #wrapper {
+      padding: 31px;
+      background-color: #fff;
+      display: flex;
+      border-radius: 10px;
+      box-shadow: -1px 9px 27px rgb(0 0 0 / 20%);
+    }
+    .col_1 {
+      background-color: #222073;
+      color: #fff;
+      padding: 76px 28px 38px;
+      text-align: center;
+      border-radius: 10px;
+      width: 35%;
+    }
+    .col_1 > h2 {
+      margin-bottom: 100px;
+      font-size: 30px;
+      font-weight: 700;
+    }
+    .col_1 > p {
+      width: 53%;
+      margin: auto;
+    }
+    .logo_wraper {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 21px;
+      margin-top: 300px;
+    }
+    .col_2 {
+      text-align: center;
+      padding: 31px 0px 0px 11px;
+    }
+    .col_2 > h2 {
+      font-weight: 400;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    .col_2-img {
+      margin-bottom: 30px;
+    }
+    .col_2 > h6 {
+      font-weight: 600;
+      font-size: 16px;
+      width: 38%;
+      margin: auto;
+      line-height: 23px;
+      margin-bottom: 60px;
+    }
+    .wlcmtxt {
+      font-size: 16px;
+      font-weight: 400;
+      width: 62%;
+      text-align: initial;
+      margin: auto;
+    }
+    .col_2btn {
+      display: inline-block;
+      background-color: #fd8c00;
+      color: #fff;
+      padding: 18px 146px;
+      border-radius: 4px;
+      font-weight: 600;
+      margin: 50px 0px;
+      cursor: pointer;
+    }
+    .caveat {
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+    .caveat > span {
+      color: #222073;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .supprt_txt {
+      width: 55%;
+      font-size: 14px;
+      margin: auto;
+      margin-bottom: 64px;
+    }
+    .right-txt {
+      color: #999999;
+      font-size: 14px;
+    }
+    .mobilescreen {
+      display: none;
+    }
+    @media (max-width: 760px) {
+      #wrapper {
+        display: none;
+      }
+      .col_1 {
+        width: 100%;
+      }
+      .col_2-img {
+        margin-bottom: 30px;
+        margin-top: 17px;
+      }
+      .col_2btn {
+        padding: 18px 68px;
+      }
+      .mobilescreen {
+        display: block;
+        padding: 0px 15px;
+      }
+      .mobile_body {
+        text-align: center;
+        background: #fff;
+        border-radius: 8px;
+        padding: 21px 0px;
+        margin-top: 17px;
+      }
+      .wlcmtxt {
+        font-size: 16px;
+        font-weight: 400;
+        width: 74%;
+        text-align: initial;
+        margin: 14px auto;
+      }
+      .mobsupprt_txt {
+        width: 65%;
+        font-size: 14px;
+        margin: auto;
+        margin-bottom: 64px;
+        line-height: 18px;
+      }
+      .mobwlcmtxt {
+        font-size: 16px;
+        font-weight: 400;
+        width: 87%;
+        text-align: initial;
+        margin: 14px auto;
+        line-height: 23px;
+      }
+      .heading_secondary {
+        font-size: 15px;
+        font-weight: 600;
+        width: 80%;
+        margin: auto;
+      }
+    }
+    @media (min-width: 768px) {
+      body {
+        padding: 0px 20px;
+      }
+    }
+    @media (min-width: 768px) {
+      .col_1 > p {
+        width: 82%;
+        margin: auto;
+      }
+    }
+  </style>
+  <body>
+    <div id="wrapper">
+      <div class="col_1">
+        <h2>Sign up Email</h2>
+        <p>Get Started in a few clicks and enjoy working with us</p>
+        <div class="logo_wraper">
+          <img src="images/molecula_logo.png" alt="logo" />
+        </div>
+      </div>
+      <div class="col_2">
+        <h2>Welcome <strong>James!</strong></h2>
+        <div class="col_2-img">
+          <img src="images/email.png" alt="image" />
+        </div>
+        <h6>JUST ONE MORE STEP, LET’S VERIFY YOUR MAIL</h6>
+        <p class="wlcmtxt">
+          We are excited to have signed up on our platform. To continue, please
+          verify your email by clicking the button below
+        </p>
+        <span class="col_2btn">Verify Email</span>
+        <p class="caveat">
+          If you didn’t create an account, please <span>click here.</span>
+        </p>
+        <p class="supprt_txt">
+          Questions? Visit our Support Center EMAIL: info@molecular.com | CALL:
+          08000000000
+        </p>
+        <p class="right-txt">©2021 Molecular copyright, All rights Reserved.</p>
+      </div>
+    </div>
+    <div class="mobilescreen">
+      <div class="mobile_logo">
+        <img src="images/molecula_logo.png" alt="logo" />
+      </div>
+      <div class="mobile_body">
+        <h2>Welcome <strong>James!</strong></h2>
+        <div class="col_2-img">
+          <img src="images/email.png" alt="image" />
+        </div>
+        <h6 class="heading_secondary">
+          JUST ONE MORE STEP, LET’S VERIFY YOUR MAIL
+        </h6>
+        <p class="mobwlcmtxt">
+          We are excited to have signed up on our platform. To continue, please
+          verify your email by clicking the button below
+        </p>
+        <span class="col_2btn">Verify Email</span>
+        <p class="caveat">
+          If you didn’t create an account, please <span>click here.</span>
+        </p>
+        <p class="mobsupprt_txt">
+          Questions? Visit our Support Center EMAIL: info@molecular.com | CALL:
+          08000000000
+        </p>
+        <p class="right-txt">©2021 Molecular copyright, All rights Reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
